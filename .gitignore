@@ -173,3 +173,6 @@ credentials.py
 data/commits_data.csv
 data/pair_commits.csv
 data/ha_1_pairs_aggregated.csv
+
+# Virtual environment
+venv/*
