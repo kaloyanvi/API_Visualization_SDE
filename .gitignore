@@ -176,3 +176,6 @@ data/ha_1_pairs_aggregated.csv
 
 # Virtual environment
 venv/*
+
+# Combined README.md
+data/combined_readme.md

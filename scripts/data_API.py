@@ -46,7 +46,7 @@ def dataAPI(repos):
             for commit in repo_commits:  
                 
                 commit_date = commit.commit.author.date.date()  # getting the date and time of the commit
-                commit_size =commitSize(commit)
+                commit_size = commitSize(commit)
 
                 if commit.author == None:  # checking whether the account is anonymous
 
