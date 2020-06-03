@@ -23,4 +23,4 @@ The obtained data is for both of the assignments of the students in which they n
 
 All the data aggregation needed is done in the **scripts/make_datasets.ipynb** file. Since there are 2 datasets used for each assignment, this file has to be executed twice with the correct assignment names adjusted before executing. The data is saved as .csv files in the **data/** folder, for privacy reasons, the obtained data that is used in the visualization dashboard is not included here.
 
-The obtained **.csv** files embedded in the ObserveableHQ notebook but can be changed or updated if needed.
+The obtained **.csv** files are embedded in the ObserveableHQ notebook but can be changed or updated if needed.
