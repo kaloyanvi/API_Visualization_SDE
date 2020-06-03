@@ -169,10 +169,10 @@ Thumbs.db
 # Credentials
 credentials.py
 
-# Sensitive data
-data/commits_data.csv
-data/pair_commits.csv
-data/ha_1_pairs_aggregated.csv
+# Data
+data/*
+data/
+data/
 
 # Virtual environment
 venv/*

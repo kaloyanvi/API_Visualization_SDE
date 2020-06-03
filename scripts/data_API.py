@@ -18,9 +18,10 @@ def commitSize(commit):
     return [commit_additions, commit_deletions]
 
 
-def dataAPI(repos):
+def dataAPI(repos, assignment_name):
 
-    ha_1 = '2is50-2019-2020-homework-assignment-1-pair-'  # repos to filter for;
+    #ha_1 = '2is50-2019-2020-homework-assignment-1-pair-'  # repos to filter for;
+    ha_1 = assignment_name
     staff_ids = ['sakce', 'kvidelov', 'mackees', 'sakehl', 'thatmariia', 'wstomv', 'sansteTUe', 'HDylanTV', 'gzwaan', 'dmarinissen']
 
     pair_numb = []
