@@ -1,6 +1,6 @@
 # Students commit input - Software Development
 
-This repository focuses on getting data from the repositories of students who are following Software Development course at the TU/e. The scraped data is used to make a visualization dashboard with JavaScript's D3 library, which can be found in an ObserveableHQ notebook here: NOT INCLUDED FOR NOW
+This repository focuses on getting data from the repositories of students who are following Software Development course at the TU/e. The scraped data is used to make a visualization dashboard with JavaScript's D3 library, which can be found in an ObserveableHQ notebook here: https://observablehq.com/d/2eccff7de8a6b7e1
 
 ## Setup
 
