@@ -8,7 +8,7 @@ The general purpose of this visualization dashboard is to come as a support tool
 
 ## Setup
 
-The code in this repository requires GitHub login credentials which are stored in **scripts/credentials.py**. This file is in _.gitignore_ for security purposes, so in order to make it work, you'll need two create the file and make the two functions needed for authentication:
+The code in this repository requires GitHub login credentials which are stored in **scripts/credentials.py**. This file is in _.gitignore_ for security purposes, so in order to make it work, you'll need to create the file and make the two functions needed for the authentication:
 
 1. username() which returns your GitHub username as a string
 2. password() which returns your GitHub password as a string
