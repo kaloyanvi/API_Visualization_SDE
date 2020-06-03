@@ -1,6 +1,6 @@
 # Visualization Dashboard - Software Development for Engineers
 
-I made this visualization dashboard as a support tool for a course I am a teaching assistant. The repository focuses on getting data from the repositories of students who are following Software Development course at the Eindhoven University of Technology. The scraped data is used to make a visualization dashboard with JavaScript's D3 library, which can be found in this [ObserveableHQ notebook](https://observablehq.com/d/2eccff7de8a6b7e1).
+I made this visualization dashboard as a support tool for a course I am a teaching assistant. The repository focuses on getting data from the repositories of students who are following Software Development course at the Eindhoven University of Technology. The obtained data is used to make a visualization dashboard with JavaScript's D3 library, which can be found in this [ObserveableHQ notebook](https://observablehq.com/d/2eccff7de8a6b7e1). All the code regarding the visualizations can also be found in the notebook.
 
 The assignments of the course focus on making a small applications in Python using the Tkinter library and all students must use version control. The students work in pairs of two for the two assignments, which makes the commits in their repositories a reasonable quantitive measure of input by each pair member.
 
