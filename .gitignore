@@ -170,11 +170,6 @@ Thumbs.db
 # Credentials
 credentials.py
 
-# Data
-data/*
-data/
-data/
-
 # Virtual environment
 venv/*
 
