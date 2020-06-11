@@ -172,6 +172,7 @@ credentials.py
 
 # Virtual environment
 venv/*
+env/*
 
 # Combined README.md
 data/combined_readme.md
