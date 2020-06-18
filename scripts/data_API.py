@@ -17,11 +17,9 @@ def commitSize(commit):
 
     return [commit_additions, commit_deletions]
 
-
 def dataAPI(repos, assignment_name):
 
-    #ha_1 = '2is50-2019-2020-homework-assignment-1-pair-'  # repos to filter for;
-    ha_1 = assignment_name
+    assignment_name = assignment_name
     staff_ids = ['sakce', 'kvidelov', 'mackees', 'sakehl', 'thatmariia', 'wstomv', 'sansteTUe', 'HDylanTV', 'gzwaan', 'dmarinissen']
 
     pair_numb = []
@@ -32,6 +30,7 @@ def dataAPI(repos, assignment_name):
     additions = []
     deletions = []
 
+
     count = 0  # counter to indicated progress
 
     for repo in repos: # iterating over all repositories associated with the login account
@@ -39,9 +38,9 @@ def dataAPI(repos, assignment_name):
         if 'with-ta' in repo.name:
             pass
 
-        elif ha_1 in repo.name:  # filtering only the assignment repos
+        elif assignment_name in repo.name:  # filtering only the assignment repos
 
-            pair_id = int(str(repo.name)[len(ha_1):])  # getting the pair number from the repository name
+            pair_id = int(str(repo.name)[len(assignment_name):])  # getting the pair number from the repository name
             repo_commits = repo.get_commits()  # iterable that contains the logs of each commit in the repo
             
             for commit in repo_commits:  
@@ -73,7 +72,7 @@ def dataAPI(repos, assignment_name):
                 elif commit.author.login in staff_ids:  # staff commits
                     pass
             
-                else:  # everything else that may be unaccounter for
+                else:  # everything else that may be unaccounted for
                     print('Issue!')
                     print(commit_date, 'Pair: ', pair_id, 'Username: ', commit.author.login)
 
@@ -84,7 +83,7 @@ def dataAPI(repos, assignment_name):
             pass
 
 
-
-    api_data = {'Pair': pair_numb, 'Author': authors, 'Author_Email': emails, 'Date': date_time, 'Additions': additions, 'Deletions': deletions, 'Commit_Message': commit_messages}
+    api_data = {'Pair': pair_numb, 'Author': authors, 'Author_Email': emails,
+     'Date': date_time, 'Additions': additions, 'Deletions': deletions, 'Commit_Message': commit_messages}
 
     return api_data
